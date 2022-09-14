@@ -56,16 +56,16 @@ legend {
 					href="article.main"
 					class="nav-link">討論區功能</a></li>
 				<li><a
-					href="http://localhost:8080/Project2/kang-DisplayUser.jsp"
+					href="listAttractions"
 					class="nav-link">景點功能</a></li>
 				<li><a
-					href="http://localhost:8080/Project2/Trista-FlightTicket.jsp"
+					href="flightTicket"
 					class="nav-link">機票功能</a></li>
 				<li><a
 					href="hotel"
 					class="nav-link">行程表</a></li>
 								<li><a
-					href="http://localhost:8080/Project2/Luana-index.jsp"
+					href="index"
 					class="nav-link">購物車與訂單</a></li>	
 			</ul>
 		</nav>
