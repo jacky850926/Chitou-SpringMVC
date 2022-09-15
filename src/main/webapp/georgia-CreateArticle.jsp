@@ -23,8 +23,11 @@ button, .btn {
 </style>
 </head>
 <body>
-<header>
-</header>
+
+
+<%@include file="WEB-INF/includes/Header.jsp" %>
+
+
 <br>
 <form action="article.insert" method="post" enctype="multipart/form-data">
 會員ID:  <BR><INPUT TYPE="TEXT" NAME="posterID" VALUE="" id="posterIDInput"><BR>

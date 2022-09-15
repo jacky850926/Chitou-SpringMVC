@@ -13,6 +13,9 @@ response.setDateHeader ("Expires", -1); // Prevents caching at the proxy server
 <title>新增航班確認</title>
 </head>
 <body>
+
+<%@include file="WEB-INF/includes/Header.jsp" %>
+
 <jsp:useBean id="insert_flight" class="chitou.trista.model.FlightTicket" scope="session" />
 <h2>
 新增航班資料如下請確認

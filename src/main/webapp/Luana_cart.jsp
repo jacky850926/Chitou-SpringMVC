@@ -29,7 +29,7 @@
     </head>
     <body>
         <%@ include file="/Luana_include/navbar.jsp" %>
-       
+       <%@include file="WEB-INF/includes/Header.jsp" %>
             <div class="container">
                 <div class="d-flex py-3">
                     <h3>Total:</h3><a class="mx-3 btn btn-primary" href="BuyfromCart?id=1">check</a>

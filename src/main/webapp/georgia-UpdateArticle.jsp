@@ -33,9 +33,7 @@ button, .btn {
 </head>
 
 <body>
-<header>
-
-</header>
+<%@include file="WEB-INF/includes/Header.jsp" %>
 <br>
 <%
 Article tt=(Article)request.getAttribute("selectByIdBean");

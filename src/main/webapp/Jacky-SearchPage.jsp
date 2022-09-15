@@ -34,37 +34,10 @@ border: 2px solid;
 
 </head>
 <body>
-	<header>
-		<nav class="navbar navbar-expand-md navbar-dark"
-			style="background-color: lightblue">
-			<div>
-				<img src="images/chitou.png" /> <a
-					href="http://localhost:8080/ChiTou/kang-DisplayUser.jsp"
-					class="navbar-brand"> ChiTou </a>
-			</div>
 
-			<ul class="navbar-nav">
-				<li><a href="http://localhost:8080/Project2/Jacky-Login.jsp"
-					class="nav-link">會員登入界面</a></li>
-				<li><a
-					href="http://localhost:8080/Project2/Georgia-Article.jsp"
-					class="nav-link">討論區功能</a></li>
-				<li><a
-					href="http://localhost:8080/Project2/kang-DisplayUser.jsp"
-					class="nav-link">景點功能</a></li>
-				<li><a
-					href="http://localhost:8080/Project2/Trista-FlightTicket.jsp"
-					class="nav-link">機票功能</a></li>
-				<li><a
-					href="http://localhost:8080/Project2/weber-journeyMain.jsp"
-					class="nav-link">行程表</a></li>
-								<li><a
-					href="http://localhost:8080/Project2/Luana-index.jsp"
-					class="nav-link">購物車與訂單</a></li>	
-			</ul>
-		</nav>
+<%@include file="WEB-INF/includes/Header.jsp" %>
 
-	</header>
+
 	<FORM ACTION="./Project2Servlet" method="post">
 		<h1>查詢主頁面</h1>
 

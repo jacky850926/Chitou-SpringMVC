@@ -8,6 +8,7 @@
 <title>加入飯店資料</title>
 </head>
 <body>
+<%@include file="WEB-INF/includes/Header.jsp" %>
 	<div align="center">
 	    <form:form action="insertHotel" method="post" modelAttribute="hotel">
 	        飯店名稱:

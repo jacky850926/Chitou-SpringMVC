@@ -18,6 +18,8 @@
 <body>
 <%@ include file="/Luana_include/navbar.jsp" %>   
 
+<%@include file="WEB-INF/includes/Header.jsp" %>
+
 <div class="container">
 		<div class="card-header my-3">All Orders 
 		<a class="btn btn-sm btn-primary" href="OrdersManu?orders=1"> Refresh</a>

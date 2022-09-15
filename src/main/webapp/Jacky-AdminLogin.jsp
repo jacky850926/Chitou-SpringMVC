@@ -1,5 +1,5 @@
-<%@page language="java" import="tw.jacky.model.*"%>
-
+<%@page language="java"  contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8" import="tw.jacky.model.*"%>
 
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
@@ -40,8 +40,8 @@ legend {
 </head>
 <body>
 
-<%@ include file="/WEB-INF/includes/Header.jsp" %>
 
+<%@include file="WEB-INF/includes/Header.jsp" %>
 
 	<FORM ACTION="adminlogin" method="post">
 		<fieldset class="container col-md-5">

@@ -18,7 +18,8 @@ response.setDateHeader("Expires", -1);
 <body>
 
 
-<%@ include file="/Luana_include/navbar.jsp" %>   
+<%@ include file="/Luana_include/navbar.jsp" %>
+<%@include file="WEB-INF/includes/Header.jsp" %>   
 <div class="container">
 <div class="d-flex py-3">
 </div>

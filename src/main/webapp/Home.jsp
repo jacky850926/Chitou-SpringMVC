@@ -66,7 +66,7 @@
 							<ul class="dropdown">
 								<li><a href="Jacky-AdminLogin.jsp">會員專區</a></li>
 								<li><a href="weber-journeyMain.jsp">我的行程</a></li>
-								<li><a href="">個人購物車</a></li>	
+								<li><a href="index">個人購物車</a></li>	
 							</ul>
 					</ul>
 
