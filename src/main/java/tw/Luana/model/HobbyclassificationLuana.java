@@ -9,7 +9,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "Hobbyclassification")
-public class Hobbyclassification {
+public class HobbyclassificationLuana {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.SEQUENCE)
@@ -22,7 +22,7 @@ public class Hobbyclassification {
 	@Column(name = "prefer_descrip")
 	private String preferDescrip;
 	
-	public Hobbyclassification() {
+	public HobbyclassificationLuana() {
 		
 	}
 

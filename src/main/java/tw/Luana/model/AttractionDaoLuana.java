@@ -14,7 +14,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Repository
 @Transactional
-public class AttractionDao {
+public class AttractionDaoLuana {
 	
 	@Autowired
 	private SessionFactory factory;

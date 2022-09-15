@@ -9,13 +9,13 @@ import org.springframework.transaction.annotation.Transactional;
 
 @Service
 @Transactional
-public class AttractionService {
+public class AttractionServiceLuana {
 
 	@Autowired
-	private AttractionDao attractionDao;
+	private AttractionDaoLuana attractionDao;
 	
-	public AttractionService() {
-		this.attractionDao = new AttractionDao();	
+	public AttractionServiceLuana() {
+		this.attractionDao = new AttractionDaoLuana();	
 	}
 
 	

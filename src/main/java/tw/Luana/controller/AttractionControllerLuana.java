@@ -31,7 +31,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class AttractionControllerLuana {
 
 	@Autowired
-	private AttractionService attractionService;
+	private AttractionServiceLuana attractionService;
 	
 	@Autowired
 	private HttpSession session;
