@@ -54,7 +54,7 @@
 						
 							<a href="">交通住宿</a>
 							<ul class="dropdown">
-								<li><a href="">住宿訂購</a></li>
+								<li><a href="hotel">住宿訂購</a></li>
 								<li><a href="flightTicket">機票訂購</a></li>
 
 							</ul>
@@ -65,7 +65,7 @@
 						<a href="">個人</a>
 							<ul class="dropdown">
 								<li><a href="Jacky-AdminLogin.jsp">會員專區</a></li>
-								<li><a href="weber-journeyMain.jsp">我的行程</a></li>
+								<!-- <li><a href="weber-journeyMain.jsp">我的行程</a></li> -->
 								<li><a href="index">個人購物車</a></li>	
 							</ul>
 					</ul>
